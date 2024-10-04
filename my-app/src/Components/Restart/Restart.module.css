@@ -1,0 +1,12 @@
+.Restart {
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 0;
+    background-color: black;
+    color: white;
+}
+
+.Restart:disabled {
+    opacity: 0.5;
+}

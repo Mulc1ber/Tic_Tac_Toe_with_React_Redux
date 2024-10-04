@@ -1,0 +1,19 @@
+.FieldsLayout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3px;
+    margin: 10px 0;
+}
+
+.Field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    user-select: none;
+}
